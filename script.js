@@ -7,6 +7,6 @@ runAnimation();
 
 function runAnimation() {
   nums.forEach((num, idx) => {
-    console.log(num, idx);
+    const nextToLast = nums.length - 1;
   });
 }
