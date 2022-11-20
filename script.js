@@ -32,3 +32,8 @@ function resetDom() {
   });
   nums[0].classList.add("in");
 }
+
+replay.addEventListener("click", () => {
+  resetDom();
+  runAnimation();
+});
